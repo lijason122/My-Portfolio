@@ -22,6 +22,7 @@ const TagsCloud = () => {
     { value: "VSCode", count: 15 },
     { value: "API", count: 30 },
     { value: "NPM", count: 11 },
+    { value: "Sass", count: 20 },
   ];
 
   // custom renderer is function which has tag, computed font size and
