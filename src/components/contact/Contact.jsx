@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+  const [info, setInfo] = useState(false);
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -20,6 +23,7 @@ const Contact = () => {
     );
 
     e.target.reset();
+    setInfo((prevInfo) => !prevInfo);
   };
 
   return (
@@ -29,7 +33,7 @@ const Contact = () => {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          <article data-aos="zoom-in" className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>lijason@sheridancollege.ca</h5>
@@ -41,7 +45,11 @@ const Contact = () => {
               Send a message
             </a>
           </article>
-          <article className="contact__option">
+          <article
+            data-aos="zoom-in"
+            data-aos-delay="250"
+            className="contact__option"
+          >
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>Jason Li</h5>
@@ -49,7 +57,11 @@ const Contact = () => {
               Send a message
             </a>
           </article>
-          <article className="contact__option">
+          <article
+            data-aos="zoom-in"
+            data-aos-delay="500"
+            className="contact__option"
+          >
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>+16479655122</h5>
@@ -80,6 +92,7 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
+          {info && <p>Your message has been submitted!</p>}
         </form>
       </div>
     </section>
