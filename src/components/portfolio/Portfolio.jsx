@@ -9,7 +9,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: "Bug Tracker",
-    github: "https://github.com/lijason122/React-Bug-Tracker",
+    github: "https://github.com/lijason122/Bug-Tracker",
     demo: "https://lijason-bug-tracker.netlify.app",
   },
   {
