@@ -1,8 +1,9 @@
 import React from "react";
+import AnimatedLetters from "../animatedLetters/AnimatedLetters";
 import "./header.css";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
-import AnimatedLetters from "../animatedLetters/AnimatedLetters";
+
 import {
   faPython,
   faCss3,

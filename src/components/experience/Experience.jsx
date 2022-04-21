@@ -1,7 +1,7 @@
 import React from "react";
+import "aos/dist/aos.css";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
-import "aos/dist/aos.css";
 
 const Experience = () => {
   return (

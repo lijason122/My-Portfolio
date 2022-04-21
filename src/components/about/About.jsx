@@ -1,10 +1,10 @@
 import React from "react";
+import TagsCloud from "./TagsCloud";
+import "aos/dist/aos.css";
 import "./about.css";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-import TagsCloud from "./TagsCloud";
-import "aos/dist/aos.css";
 
 const About = () => {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
+import "aos/dist/aos.css";
 import "./portfolio.css";
 import IMG1 from "../../assets/bug-tracker.PNG";
 import IMG2 from "../../assets/api-web-app.PNG";
 import IMG3 from "../../assets/oslyn.PNG";
-import "aos/dist/aos.css";
 
 const data = [
   {
