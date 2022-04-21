@@ -1,9 +1,9 @@
 import React from "react";
 import AnimatedLetters from "../animatedLetters/AnimatedLetters";
+import "./cube.scss";
 import "./header.css";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
-
 import {
   faPython,
   faCss3,
@@ -13,7 +13,6 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./cube.scss";
 
 const Header = () => {
   const greetArray = ["H", "e", "l", "l", "o", ", ", " ", "I'", "m"];
