@@ -18,7 +18,7 @@ const data = [
     image: IMG2,
     title: "Real-Time Weather Web App",
     github: "https://github.com/lijason122/REST-API-Web-Application",
-    demo: "https://github.com/lijason122",
+    demo: "https://lijason.pythonanywhere.com",
   },
   {
     id: 3,
