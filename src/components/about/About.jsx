@@ -46,11 +46,12 @@ const About = () => {
           </div>
 
           <p data-aos="slide-left">
-            I've been doing programming since post-secondary education. I really
+            I've started programming since post-secondary education and I really
             enjoy learning new technologies. My goal is to be able to help the
             team build and operate digital businesses, satisfy client's
-            expectation, and grow in a community. I hope to make other people's
-            jobs easier and more productive with my skills and knowledge.
+            expectation, and grow in a community. I hope to leverage my skills
+            and knowledge to make other people's jobs easier and more
+            productive.
           </p>
           <a
             href="#contact"
