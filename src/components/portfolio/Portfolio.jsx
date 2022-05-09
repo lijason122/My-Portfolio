@@ -3,7 +3,10 @@ import "aos/dist/aos.css";
 import "./portfolio.css";
 import IMG1 from "../../assets/bug-tracker.PNG";
 import IMG2 from "../../assets/api-web-app.PNG";
-import IMG3 from "../../assets/oslyn.PNG";
+import IMG3 from "../../assets/team-chat.PNG";
+import IMG4 from "../../assets/oslyn.PNG";
+import IMG5 from "../../assets/e-commerce.PNG";
+import IMG6 from "../../assets/github-profile.PNG";
 
 const data = [
   {
@@ -23,10 +26,31 @@ const data = [
   {
     id: 3,
     image: IMG3,
+    title: "Team Chat",
+    github: "https://github.com/lijason122/Chat-App",
+    demo: "https://lijason-team-chat.netlify.app",
+  },
+  {
+    id: 4,
+    image: IMG4,
     title: "Oslyn Web App",
     github:
       "https://github.com/DominicFung/oslyn-webapp/blob/master/src/components/Features.js",
     demo: "https://oslyn.io",
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: "E-Commerce (In Progress)",
+    github: "https://github.com/lijason122/My-ECommerce",
+    demo: "",
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: "Check out my github profile!",
+    github: "https://github.com/lijason122",
+    demo: "",
   },
 ];
 
@@ -39,6 +63,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         {data.map(({ id, image, title, github, demo }, delay) => {
           delay *= 300;
+          let live = id < 5 ? true : false;
           return (
             <article
               key={id}
@@ -59,14 +84,16 @@ const Portfolio = () => {
                 >
                   Github
                 </a>
-                <a
-                  href={demo}
-                  className="btn btn-primary"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live Demo
-                </a>
+                {live && (
+                  <a
+                    href={demo}
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                )}
               </div>
             </article>
           );
