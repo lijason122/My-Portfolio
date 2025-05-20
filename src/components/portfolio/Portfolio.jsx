@@ -63,7 +63,6 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         {data.map(({ id, image, title, github, demo }, delay) => {
           delay *= 300;
-          let live = id < 5 ? true : false;
           return (
             <article
               key={id}
@@ -84,7 +83,7 @@ const Portfolio = () => {
                 >
                   Github
                 </a>
-                {live && (
+                {demo && (
                   <a
                     href={demo}
                     className="btn btn-primary"
