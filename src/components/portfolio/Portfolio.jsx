@@ -9,41 +9,41 @@ import IMG5 from "../../assets/e-commerce.PNG";
 import IMG6 from "../../assets/github-profile.PNG";
 
 const data = [
-  {
+    {
     id: 1,
+    image: IMG5,
+    title: "E-Commerce",
+    github: "https://github.com/lijason122/My-ECommerce",
+    demo: "https://lijason-ecommerce.netlify.app",
+  },
+  {
+    id: 2,
     image: IMG1,
     title: "Bug Tracker",
     github: "https://github.com/lijason122/Bug-Tracker",
     demo: "https://lijason-bug-tracker.netlify.app",
   },
   {
-    id: 2,
+    id: 3,
     image: IMG2,
     title: "Real-Time Weather Web App",
     github: "https://github.com/lijason122/REST-API-Web-Application",
     demo: "https://lijason.pythonanywhere.com",
   },
   {
-    id: 3,
+    id: 4,
     image: IMG3,
     title: "Team Chat",
     github: "https://github.com/lijason122/Chat-App",
     demo: "https://lijason-team-chat.netlify.app",
   },
   {
-    id: 4,
+    id: 5,
     image: IMG4,
     title: "Oslyn Web App",
     github:
       "https://github.com/DominicFung/oslyn-webapp/blob/master/src/components/Features.js",
     demo: "https://oslyn.io",
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: "E-Commerce (In Progress)",
-    github: "https://github.com/lijason122/My-ECommerce",
-    demo: "",
   },
   {
     id: 6,
