@@ -46,9 +46,9 @@ const About = () => {
           </div>
 
           <p data-aos="slide-left">
-            I've started programming since post-secondary education and I really
-            enjoy learning new technologies. My goal is to be able to help the
-            team build and operate digital businesses, satisfy client's
+            I'm a software engineer with a strong focus on frontend development, 
+            particularly using React.js, TypeScript, and modern JavaScript frameworks.
+            My goal is to be able to help the team build and operate digital businesses, satisfy client's
             expectation, and grow in a community. I hope to leverage my skills
             and knowledge to make other people's jobs easier and more
             productive.

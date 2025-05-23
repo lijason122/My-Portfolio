@@ -7,7 +7,9 @@ const TagsCloud = () => {
     { value: "jQuery", count: 25 },
     { value: "SQL", count: 18 },
     { value: "JavaScript", count: 38 },
-    { value: "React", count: 30 },
+    { value: "React", count: 50 },
+    { value: "TypeScript", count: 25 },
+    { value: "NextJS", count: 25 },
     { value: "NodeJS", count: 28 },
     { value: "GraphQL", count: 25 },
     { value: "HTML5", count: 33 },
@@ -23,6 +25,10 @@ const TagsCloud = () => {
     { value: "API", count: 30 },
     { value: "NPM", count: 11 },
     { value: "Sass", count: 20 },
+    { value: "Sourcetree", count: 20 },
+    { value: "Docker", count: 20 },
+    { value: "Jira", count: 20 },
+    { value: "Agile Methodology", count: 20 },
   ];
 
   // custom renderer is function which has tag, computed font size and

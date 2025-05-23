@@ -44,14 +44,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Bootstrap</h4>
+                <h4>TypeScript</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>jQuery</h4>
+                <h4>NextJS</h4>
                 <small className="text-light"></small>
               </div>
             </article>
@@ -93,14 +93,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>C</h4>
+                <h4>Stripe</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>C#</h4>
+                <h4>Firebase</h4>
                 <small className="text-light"></small>
               </div>
             </article>
