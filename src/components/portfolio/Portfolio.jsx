@@ -4,7 +4,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/bug-tracker.PNG";
 import IMG2 from "../../assets/api-web-app.PNG";
 import IMG3 from "../../assets/team-chat.PNG";
-import IMG4 from "../../assets/oslyn.PNG";
+import IMG4 from "../../assets/chatbot-ai.png";
 import IMG5 from "../../assets/e-commerce.PNG";
 import IMG6 from "../../assets/github-profile.PNG";
 
@@ -25,25 +25,25 @@ const data = [
   },
   {
     id: 3,
+    image: IMG4,
+    title: "AI Chatbot with voice",
+    github:
+      "https://github.com/lijason122/Chatbot-AI-Voice",
+    demo: "https://chatbot-ai-voice-client.onrender.com/",
+  },
+  {
+    id: 4,
     image: IMG2,
     title: "Real-Time Weather Web App",
     github: "https://github.com/lijason122/REST-API-Web-Application",
     demo: "https://lijason.pythonanywhere.com",
   },
   {
-    id: 4,
+    id: 5,
     image: IMG3,
     title: "Team Chat",
     github: "https://github.com/lijason122/Chat-App",
     demo: "https://lijason-team-chat.netlify.app",
-  },
-  {
-    id: 5,
-    image: IMG4,
-    title: "Oslyn Web App",
-    github:
-      "https://github.com/DominicFung/oslyn-webapp/blob/master/src/components/Features.js",
-    demo: "https://oslyn.io",
   },
   {
     id: 6,
