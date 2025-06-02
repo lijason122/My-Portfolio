@@ -26,7 +26,7 @@ const data = [
   {
     id: 3,
     image: IMG4,
-    title: "AI Chatbot with voice",
+    title: "AI Chatbot Voice Assistant",
     github:
       "https://github.com/lijason122/Chatbot-AI-Voice",
     demo: "https://chatbot-ai-voice-client.onrender.com/",
