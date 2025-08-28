@@ -3,25 +3,25 @@ import "aos/dist/aos.css";
 import "./portfolio.css";
 import IMG1 from "../../assets/bug-tracker.PNG";
 import IMG2 from "../../assets/api-web-app.PNG";
-import IMG3 from "../../assets/team-chat.PNG";
 import IMG4 from "../../assets/chatbot-ai.png";
 import IMG5 from "../../assets/e-commerce.PNG";
-import IMG6 from "../../assets/github-profile.PNG";
+import IMG6 from "../../assets/travel-agency.png";
+import IMG7 from "../../assets/github-profile.PNG"
 
 const data = [
     {
     id: 1,
+    image: IMG6,
+    title: "Travel Agency Dashboard",
+    github: "https://github.com/lijason122/travel-agency",
+    demo: "https://lijason-travel-agency.vercel.app",
+  },
+  {
+    id: 2,
     image: IMG5,
     title: "E-Commerce",
     github: "https://github.com/lijason122/My-ECommerce",
     demo: "https://lijason-ecommerce.netlify.app",
-  },
-  {
-    id: 2,
-    image: IMG1,
-    title: "Bug Tracker",
-    github: "https://github.com/lijason122/Bug-Tracker",
-    demo: "https://lijason-bug-tracker.netlify.app",
   },
   {
     id: 3,
@@ -33,21 +33,21 @@ const data = [
   },
   {
     id: 4,
+    image: IMG1,
+    title: "Bug Tracker",
+    github: "https://github.com/lijason122/Bug-Tracker",
+    demo: "https://lijason-bug-tracker.netlify.app",
+  },
+  {
+    id: 5,
     image: IMG2,
     title: "Real-Time Weather Web App",
     github: "https://github.com/lijason122/REST-API-Web-Application",
     demo: "https://lijason.pythonanywhere.com",
   },
   {
-    id: 5,
-    image: IMG3,
-    title: "Team Chat",
-    github: "https://github.com/lijason122/Chat-App",
-    demo: "https://lijason-team-chat.netlify.app",
-  },
-  {
     id: 6,
-    image: IMG6,
+    image: IMG7,
     title: "Check out my github profile!",
     github: "https://github.com/lijason122",
     demo: "",
