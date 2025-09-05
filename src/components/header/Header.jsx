@@ -18,16 +18,11 @@ const Header = () => {
   const greetArray = ["H", "e", "l", "l", "o", ", ", " ", "I'", "m"];
   const nameArray = ["J", "a", "s", "o", "n", " ", "L", "i"];
   const jobArray = [
-    "F",
-    "u",
-    "l",
-    "l",
-    "-",
-    "S",
-    "t",
+    "R",
+    "e",
     "a",
     "c",
-    "k",
+    "t",
     " ",
     "D",
     "e",
