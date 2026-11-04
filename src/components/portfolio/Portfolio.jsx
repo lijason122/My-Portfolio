@@ -3,41 +3,49 @@ import "aos/dist/aos.css";
 import "./portfolio.css";
 import IMG1 from "../../assets/bug-tracker.PNG";
 import IMG2 from "../../assets/api-web-app.PNG";
-import IMG4 from "../../assets/chatbot-ai.png";
+// import IMG4 from "../../assets/chatbot-ai.png";
 import IMG5 from "../../assets/e-commerce.PNG";
 import IMG6 from "../../assets/travel-agency.png";
 import IMG7 from "../../assets/ai-teaching-companion.png";
+import IMG8 from "../../assets/meet-ai.png";
 
 const data = [
     {
       id: 1,
+      image: IMG8,
+      title: "Meet AI Agents",
+      github: "https://github.com/lijason122/my-meet-ai",
+      demo: "https://my-meet-ai.vercel.app",
+    },
+    {
+      id: 2,
       image: IMG7,
       title: "AI Teaching Companion",
       github: "https://github.com/lijason122/saas-application",
       demo: "https://ai-teaching-companion.vercel.app",
     },
     {
-    id: 2,
+    id: 3,
     image: IMG6,
     title: "Travel Agency Dashboard",
     github: "https://github.com/lijason122/travel-agency",
     demo: "https://lijason-travel-agency.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     image: IMG5,
     title: "E-Commerce",
     github: "https://github.com/lijason122/My-ECommerce",
     demo: "https://lijason-ecommerce.netlify.app",
   },
-  {
-    id: 4,
-    image: IMG4,
-    title: "AI Chatbot Voice Assistant",
-    github:
-      "https://github.com/lijason122/Chatbot-AI-Voice",
-    demo: "https://chatbot-ai-voice-client.onrender.com/",
-  },
+  // {
+  //   id: 4,
+  //   image: IMG4,
+  //   title: "AI Chatbot Voice Assistant",
+  //   github:
+  //     "https://github.com/lijason122/Chatbot-AI-Voice",
+  //   demo: "https://chatbot-ai-voice-client.onrender.com",
+  // },
   {
     id: 5,
     image: IMG1,
