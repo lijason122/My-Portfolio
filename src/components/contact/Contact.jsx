@@ -35,7 +35,7 @@ const Contact = () => {
           <article data-aos="zoom-in" className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>lijason@sheridancollege.ca</h5>
+            <h5>lijason.business@gmail.com</h5>
           </article>
           <article
             data-aos="zoom-in"
